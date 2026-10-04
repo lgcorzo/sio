@@ -1,4 +1,4 @@
-module github.com/minio/sio
+module github.com/lgcorzo/sio
 
 require (
 	golang.org/x/crypto v0.23.0

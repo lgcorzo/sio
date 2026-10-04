@@ -14,7 +14,7 @@
 
 // Package sio implements the DARE format. It provides an API for secure
 // en/decrypting IO operations using io.Reader and io.Writer.
-package sio // import "github.com/minio/sio"
+package sio // import "github.com/lgcorzo/sio"
 
 import (
 	"bytes"
