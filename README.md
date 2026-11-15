@@ -7,7 +7,7 @@ Maintained fork of [minio/sio](https://github.com/minio/sio). It applies securit
 
 > [!NOTE]
 > **UPSTREAM STATUS & SOVEREIGN FORK PURPOSE:**
-> Following upstream repository archiving and licensing shifts across the MinIO ecosystem, this repository is **actively maintained and hardened** under **@lgcorzo** as an essential infrastructure component of the **[Dark Gravity Autonomous CA/CD Factory](https://github.com/lgcorzo/rust_CACD_autonomous_factory)** ([Architecture Knowledge Base](https://notebook.google.com/notebook/116d5f03-2fb0-4fa7-bd7c-1c9849920abc)). Continuous security auditing, zero-CVE verification, and hardware SIMD optimizations are independently maintained to guarantee supply-chain sovereignty and operational continuity.
+> Following upstream repository archiving and licensing shifts across the MinIO ecosystem, this repository is **actively maintained and hardened** under **@lgcorzo** as an essential infrastructure component of the **[Dark Gravity Autonomous CA/CD Factory](https://github.com/lgcorzo/rust_CACD_autonomous_factory)** ([Architecture Knowledge Base](https://notebook.google.com/notebook/116d5f03-2fb0-4fa7-bd7c-1c9849920abc)). Continuous security auditing, zero-CVE verification, and hardware SIMD optimizations are independently maintained to support supply-chain continuity and security maintenance.
 
 ---
 
@@ -17,9 +17,9 @@ Maintained fork of [minio/sio](https://github.com/minio/sio). It applies securit
 In the **Dark Gravity Autonomous CA/CD Software Factory (V7.2 / V7.3)**, Pure Go implementation of the Data At Rest Encryption (DARE) specification, providing authenticated encryption for sensitive model weights and agent tokens.
 
 ### 2. Supply-Chain Sovereignty & Independent Maintenance
-- **Insulation from Upstream License Closures:** When upstream open-source projects close distributions or alter licensing terms, Dark Gravity enforces **semantic mirroring and sovereign forks** to guarantee total independence from commercial vendors.
+- **Insulation from Upstream License Closures:** When upstream open-source projects close distributions or alter licensing terms, Dark Gravity maintains **semantic mirrors and patched forks** to reduce dependency on upstream commercial distribution shifts.
 - **Autonomous Security Verification & Zero-CVE Policy:** This repository is continuously audited for CVEs and vulnerabilities, maintaining a 100% clean secret scanning posture. Regressions and upstream bugs are resolved directly within the autonomous factory ecosystem.
-- **Compliance & Provenance:** Ensures cryptographic integrity and auditable lineage in compliance with the **EU AI Act**, **SOC 2 Type II**, and **Hazitek / SPRI** regulatory frameworks.
+- **Auditability & Provenance:** Designed to facilitate auditing, cryptographic integrity, and lineage traceability.
 
 ---
 
@@ -107,3 +107,10 @@ For security vulnerability reports, please see our [Security Policy](SECURITY.md
 | CHACHA20_POLY1305 | 97 MB/s | 1.23 GB/s | 1.54 GB/s | 1.57 GB/s |
 
 _On i7-6500U 2 x 2.5 GHz | Linux 4.10.0-32-generic | Go 1.8.3 | AES-NI & AVX2_
+
+---
+
+### Fork Maintenance & Agent Transparency
+
+- **Changes vs. Upstream:** Security dependency updates, CI/CD workflow fixes, and CodeQL remediation are tracked in the [commit history](../../commits) and [Pull Requests](../../pulls?q=is%3Apr).
+- **Agent Tagging (`[agent]`):** Commits and pull requests generated automatically by agents in the Dark Gravity pipeline are prefixed with `[agent]` to distinguish automated maintenance from manual work.
